@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+body {
+    background: #f1f1f1;
+    font-size: 20px;
+    color: #062236;
+}
+
+.barra {
+    text-orientation: upright;
+    background: #F5F5F5;
+    padding-top: 15px;
+    margin: 0;
+    color: #062236;
+    text-align: upleft;
+    padding-bottom: 10px;
+}
+
+.UNSAAC_Tittle {
+    color: #062236;
+    font-size: 50px;
+    margin-left: 50%; 
+}
+
+.dropdown-menu {
+    margin: 17px;
+    background: #062236;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.568);
+}
+
+.menuperfil {
+    color: white;
+}
+
+.menuperfil:focus {
+    background: #23ae6b;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.568);
+}
+
+.cerrar:hover {
+    background-color: rgba(206, 65, 22, 0.877);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.568);
+}
+
+.user {
+    font-size: 35px;
+}
+.col-8
+{
+    font-style: #FFFFFF;
+}
+
+/*BARRA LATERAL*/
+
+.barra-lateral {
+    background: #11075C;
+    color: #fff;
+    min-width: 350px;
+    min-height: 200vh;
+    padding: 0;
+}
+
+.barra-lateral a {
+    color: #fff;
+}
+
+.text-right {
+    background: #F5F5F5;
+    padding: 50;
+    
+}
+
+
+/*ESTILOS MENU*/
+
+.barra-lateral .menu a {
+    display: block;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+}
+
+.barra-lateral .menu a:hover {
+    background-color: #FFFFFF;
+    text-decoration: #FFFFFF;
+    text-decoration-color: #FFFFFF;
+}
+
+.active {
+    background: #FFFFFF;
+}
+
+.barra-lateral .menu {
+    border-top: 5px #131640 solid;
+}
+
+.barra-lateral .menu a i {
+    margin-right: 20px;
+}
+
+
+/*MAIN*/
+
+.main {
+    padding-top: 50px;
+}
+
+.main .columna {
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+
+/*mediaquerys*/
+
+@media screen and (max-width:1300px) {
+    .barra-lateral {
+        min-width: auto;
+    }
+    .barra-lateral .menu a span {
+        display: none;
+    }
+    .barra-lateral .menu a i {
+        margin: 0;
+    }
+    .barra {
+        min-width: auto;
+    }
+    .dropdown-menu {
+        margin: 20px -79px 0px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .barra-lateral {
+        min-height: auto;
+    }
+    .barra-lateral .menu a {
+        display: inline-block;
+        border-bottom: none;
+    }
+    .dropdown-menu {
+        margin: 20px -78px 0px;
+    }
+    .logocppe {
+        width: 100%;
+    }
+    body {
+        background: #D3D3D3;
+        font-size: 16px;
+        overflow: visible;
+    }
+}
+
+.formulariorecursos {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.568);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.menu {
+    border-top: 5px #fff solid;
+}
+
+@media screen and (max-width:575px) {
+    .barra-lateral {
+        height: auto;
+    }
+    .barra-lateral.menu a {
+        display: inline-block;
+        border-bottom: none;
+    }
+    .dropdown-menu {
+        margin: 20px -78 0px;
+    }
+    body {
+        font-size: 16px;
+        overflow: visible;
+    }
+}
+.btn-cargar-cursos
+{
+    color: #fff;
+    background-color: #ECA100;
+    border-color: #060C2D;
+}
+.myTab{
+    margin-left: auto;
+}
+.form-control
+{
+    width: 58%;
+}
+.main-section{
+    margin:auto;
+    margin-top:12%;
+    
+}
+
+.tab-content{
+    padding: 2em;
+}
+.card{
+
+    height: 150%;
+    width: 150%;
+    opacity: .95;
+}
+.card-body{
+    background-color: #d1d3d6;
+    box-shadow: 0px 0px 3px #848484;
+}
+
+label{
+    font-weight: bold;
+}
+
+.nav-tabs .nav-item a:not(.active){
+    background-color: #d1d3d6;
+}
+
+.modal-content{
+    width: 250%;
+}
+
+.nav-tabs{
+    border-bottom:0px;
+    height: 250%;
+    width: 250%;
+    padding: auto;
+}
+.tab-pane
+{
+    height: 250%;
+    width: 250%;
+}
